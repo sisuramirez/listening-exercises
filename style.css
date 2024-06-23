@@ -31,15 +31,25 @@ html, body {
 
 main {
   background-color: #f2f2f2;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.spelling-exercise__section + .spelling-exercise__section {
+  margin-top: 30px;
 }
 
 .spelling-exercise__section {
-  /* width: 85%; */
   margin: 0 auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Subtle shadow */
   border: 1px solid #dcdcdc; /* Light grey border */
   padding: 16px;
   border-radius: 8px; /* Optional for rounded corners */
+  max-width: 1200px;
+}
+
+.spelling-exercise__exercise{
+  margin-top: 30px;
 }
 
 .spelling-exercise__audio {
@@ -50,4 +60,31 @@ main {
 
 .spelling-exercise__exercise{
   margin-bottom: 20px;
+}
+
+.footer {
+  padding: 40px;
+  background: linear-gradient(to right, #051437, #0a3e5c);
+  text-align: center;
+}
+
+.footer__logo,
+.footer__text,
+.footer__vertical-line {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.footer__vertical-line {
+  width: 5px;
+  height: 70px;
+  background-color: #f2f2f2;
+  margin: 0 10px;
+}
+
+.footer__title-name {
+  color: #f2f2f2;
+  margin: 0;
+  padding: 0;
 }

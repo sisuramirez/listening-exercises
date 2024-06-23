@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Listen and Spell</title>
+  <title> | Listen and Spell</title>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,7 +12,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <!-- CSS link -->
   <link rel="stylesheet" href="style.css">
-
+  <!-- JavaScript link -->
+  <script src="./script.js" defer></script>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/SISU CORP FAVICON.png" type="image/x-icon">
 </head>
 <body>
   <header class="header">
@@ -32,10 +35,11 @@
           <source src="./Easy Section/Easy-name-1.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form1">
+          <label class="spelling-exercise__label" for="userInput1">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput1" name="userInput1"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result1" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -43,10 +47,11 @@
           <source src="./Easy Section/Easy-name-2.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form2">
+          <label class="spelling-exercise__label" for="userInput2">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput2" name="userInput2"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result2" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -54,10 +59,11 @@
           <source src="./Easy Section/Easy-name-3.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form3">
+          <label class="spelling-exercise__label" for="userInput3">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput3" name="userInput3"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result3" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -65,10 +71,11 @@
           <source src="./Easy Section/Easy-name4.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form4">
+          <label class="spelling-exercise__label" for="userInput4">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput4" name="userInput4"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result4" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -76,12 +83,14 @@
           <source src="./Easy Section/Easy-name5.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form5">
+          <label class="spelling-exercise__label" for="userInput5">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput5" name="userInput5"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result5" class="result-message"></p>
         </form>
       </div>
+      
       <!-- Email addresses - easy -->
       <h3>Escucha atentamente las siguientes direcciones de E-mail</h3>
       <div class="spelling-exercise__exercise">
@@ -89,10 +98,11 @@
           <source src="./Easy Section/Easy-email-1.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form6">
+          <label class="spelling-exercise__label" for="userInput6">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput6" name="userInput6"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result6" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -100,10 +110,11 @@
           <source src="./Easy Section/Easy-email-2.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form7">
+          <label class="spelling-exercise__label" for="userInput7">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput7" name="userInput7"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result7" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -111,10 +122,11 @@
           <source src="./Easy Section/Easy-email-3.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form8">
+          <label class="spelling-exercise__label" for="userInput8">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput8" name="userInput8"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result8" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -122,10 +134,11 @@
           <source src="./Easy Section/Easy-email-4.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form9">
+          <label class="spelling-exercise__label" for="userInput9">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput9" name="userInput9"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result9" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -133,10 +146,11 @@
           <source src="./Easy Section/Easy-email-5.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form10">
+          <label class="spelling-exercise__label" for="userInput10">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput10" name="userInput10"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result10" class="result-message"></p>
         </form>
       </div>
     </section>
@@ -149,10 +163,11 @@
           <source src="./Intermediate/Interm-name1.wav" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form11">
+          <label class="spelling-exercise__label" for="userInput11">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput11" name="userInput11"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result11" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -160,10 +175,11 @@
           <source src="./Intermediate/Interm-name2.wav" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form12">
+          <label class="spelling-exercise__label" for="userInput12">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput12" name="userInput12"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result12" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -171,10 +187,11 @@
           <source src="./Intermediate/Interm-name3.wav" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form13">
+          <label class="spelling-exercise__label" for="userInput13">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput13" name="userInput13"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result13" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -182,10 +199,11 @@
           <source src="./Intermediate/Interm-name4.wav" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form14">
+          <label class="spelling-exercise__label" for="userInput14">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput14" name="userInput14"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result14" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -193,10 +211,11 @@
           <source src="./Intermediate/Interm-name5.wav" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form15">
+          <label class="spelling-exercise__label" for="userInput15">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput15" name="userInput15"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result15" class="result-message"></p>
         </form>
       </div>
       <!-- Email addresses - intermediate -->
@@ -206,10 +225,11 @@
           <source src="./Intermediate/Interm-email1.wav" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form16">
+          <label class="spelling-exercise__label" for="userInput16">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput16" name="userInput16"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result16" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -217,21 +237,23 @@
           <source src="./Intermediate/Interm-email2.wav" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form17">
+          <label class="spelling-exercise__label" for="userInput17">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput17" name="userInput17"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result17" class="result-message"></p>
         </form>
-      </div>
+      </div>  
       <div class="spelling-exercise__exercise">
         <audio class="spelling-exercise__audio" controls>
           <source src="./Intermediate/Interm-email3.wav" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form18">
+          <label class="spelling-exercise__label" for="userInput18">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput18" name="userInput18"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result18" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -239,10 +261,11 @@
           <source src="./Intermediate/Interm-email4.wav" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form19">
+          <label class="spelling-exercise__label" for="userInput19">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput19" name="userInput19"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result19" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -250,10 +273,11 @@
           <source src="./Intermediate/Interm-email5.wav" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form20">
+          <label class="spelling-exercise__label" for="userInput20">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput20" name="userInput20"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result20" class="result-message"></p>
         </form>
       </div>
     </section>
@@ -266,10 +290,11 @@
           <source src="./Hard Section/Hard - name 1.wav" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form21">
+          <label class="spelling-exercise__label" for="userInput21">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput21" name="userInput21"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result21" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -277,10 +302,11 @@
           <source src="./Hard Section/Hard - name 2.wav" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form22">
+          <label class="spelling-exercise__label" for="userInput22">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput22" name="userInput22"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result22" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -288,10 +314,11 @@
           <source src="./Hard Section/Hard - name 3.wav" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form23">
+          <label class="spelling-exercise__label" for="userInput23">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput23" name="userInput23"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result23" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -299,10 +326,11 @@
           <source src="./Hard Section/Hard - name 4.wav" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form24">
+          <label class="spelling-exercise__label" for="userInput24">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput24" name="userInput24"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result24" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -310,45 +338,49 @@
           <source src="./Hard Section/hard-name-5.m4a" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form25">
+          <label class="spelling-exercise__label" for="userInput25">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput25" name="userInput25"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result25" class="result-message"></p>
         </form>
       </div>
       <!-- Email - hard -->
-      <h3>Escucha atentamente los siguientes E-mail</h3>
+      <h3>Escucha atentamente las siguientes direcciones de E-mail</h3>
       <div class="spelling-exercise__exercise">
         <audio class="spelling-exercise__audio" controls>
           <source src="./Hard Section/Hard - email 1.m4a" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form26">
+          <label class="spelling-exercise__label" for="userInput26">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput26" name="userInput26"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result26" class="result-message"></p>
         </form>
-      </div>
+      </div>   
       <div class="spelling-exercise__exercise">
         <audio class="spelling-exercise__audio" controls>
           <source src="./Hard Section/Hard - email 2.m4a" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form27">
+          <label class="spelling-exercise__label" for="userInput27">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput27" name="userInput27"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result27" class="result-message"></p>
         </form>
-      </div>
+      </div>     
       <div class="spelling-exercise__exercise">
         <audio class="spelling-exercise__audio" controls>
           <source src="./Hard Section/Hard - email 3.m4a" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form28">
+          <label class="spelling-exercise__label" for="userInput28">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput28" name="userInput28"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result28" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -356,10 +388,11 @@
           <source src="./Hard Section/Hard - email 4.m4a" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form29">
+          <label class="spelling-exercise__label" for="userInput29">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput29" name="userInput29"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result29" class="result-message"></p>
         </form>
       </div>
       <div class="spelling-exercise__exercise">
@@ -367,13 +400,23 @@
           <source src="./Hard Section/Hard - email 5.m4a" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <form class="spelling-exercise__form">
-          <label class="spelling-exercise__label" for="userInput">Ingresa tu respuesta</label>
-          <input class="spelling-exercise__input" type="text" id="userInput" name="userInput"/>
-          <input class="spelling-exercise__submit"type="submit" value="submit">
+        <form class="spelling-exercise__form" id="form30">
+          <label class="spelling-exercise__label" for="userInput30">Ingresa tu respuesta</label>
+          <input class="spelling-exercise__input" type="text" id="userInput30" name="userInput30"/>
+          <input class="spelling-exercise__submit" type="submit" value="submit">
+          <p id="result30" class="result-message"></p>
         </form>
       </div>
     </section>
   </main>
+  <footer class="footer">
+    <div class=" footer__logo logo">
+      <a href="https://sisuramirez.com/" class="footer-icon" target="_blank"><img src="./assets/sisu-corp_logo.png " alt="Instagram"  ></a>
+    </div>
+    <hr class="footer__vertical-line">
+    <div class="footer__text">
+      <h3 class="footer__title-name">SISU RAMIREZ</h3>
+    </div>
+  </footer>
 </body>
 </html>
