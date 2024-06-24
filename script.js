@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     { id: "form9", correctAnswer: "tunes4life@example.com" },
     { id: "form10", correctAnswer: "wanderlustadventures@example.com" },
     { id: "form11", correctAnswer: "Amelia Parker" },
-    { id: "form12", correctAnswer: "Gabriela Santos" },
+    { id: "form12", correctAnswer: "Gabriella Santos" },
     { id: "form13", correctAnswer: "Isabella Russo" },
     { id: "form14", correctAnswer: "Felicity Nguyen" },
     { id: "form15", correctAnswer: "Penelope Singh" },
